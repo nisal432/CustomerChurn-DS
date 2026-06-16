@@ -1,0 +1,2 @@
+using first filtered csv on logisticregression model we got 80% accuracy 
+using first filtered csv on RandomForest model we got 86.5% accuracy
