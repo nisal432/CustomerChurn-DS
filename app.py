@@ -24,7 +24,7 @@ def preprocess_input(input_dict):
         'credit_score': float(input_dict['credit_score']),
         'gender': 1 if input_dict['gender'] == 'Male' else 0,   # 0 = Female, 1 = Male (adjust if needed)
         'age': float(input_dict['age']),
-        'tenure': float(input_dict['tenure']),
+        'tenure': float(input_dict['tenure']),                  
         'balance': float(input_dict['balance']),
         'products_number': int(input_dict['products_number']),
         'credit_card': int(input_dict['credit_card']),
